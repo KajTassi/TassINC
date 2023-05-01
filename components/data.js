@@ -2,56 +2,45 @@ import {
   FaceSmileIcon,
   ChartBarSquareIcon,
   CursorArrowRaysIcon,
-  DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
-  SunIcon,
+  
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../public/img/benefit-one.png";
-import benefitTwoImg from "../public/img/benefit-two.png";
+import benefitOneImg from "../public/img/golf.png";
+import benefitTwoImg from "../public/img/engine1.jpg";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Your vehicle's year is just a number, we can get it done",
+  desc: "We've been around the block and have a wealth of experience servicing exclusively Volkswagons of any year and model. Your car is in good hands we understand a car does more than just take you to the places you need to go. You take pride in your vehicle, and we take pride in our work.",
   image: benefitOneImg,
   bullets: [
-    {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
-    },
     {
       title: "Improve acquisition",
       desc: "Here you can add the next benefit point.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Tell a Friend",
+      desc: "Your business and word of mouth are important to us.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "We perform service, repairs, and long term maintenance",
+  desc: "From oil changes, to break checks, to engine diagnostics, we can get it taken care. When one thing in a car beigns to break down, it can put strain on the rest of the vehicle. We want to be able to diagnose those issues with detail and keep your vehicle in top shape.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
+      title: "Happy Cars have Happy Drivers",
+      desc: "Let's expand the lifespan of your car and keep it running great.",
+      icon: <FaceSmileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Detailed Diagnostics",
+      desc: "We will identify the issues, and give you the options on the best course of action.",
       icon: <AdjustmentsHorizontalIcon />,
-    },
-    {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
     },
   ],
 };
