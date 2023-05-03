@@ -54,7 +54,7 @@ const Hero = () => {
       <Container>
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
-            Trusted since <span className="text-indigo-600">1991</span>{" "}
+            Trusted since <span className="text-indigo-600">1990</span>{" "}
             by customers all over the Bay Area
           </div>
 
