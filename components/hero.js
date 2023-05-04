@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Container from "./container";
 import heroImg from "../public/img/hero.png";
+import Faq from "./faq";
 
 const Hero = () => {
   return (
@@ -26,14 +27,9 @@ const Hero = () => {
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
                 Address
               </a>
-              <a
-                href=""
-                target="_blank"
-                rel="noopener"
-                className="flex items-center space-x-2 text-gray-500 dark:text-gray-400">
-                
-                <span>If it's a Volkswagen, we can fix it!</span>
-              </a>
+              <span>
+                  <Faq />
+              </span>
             </div>
           </div>
         </div>
@@ -65,5 +61,14 @@ const Hero = () => {
     </>
   );
 }
+
+const faqdata = [
+  {
+    question: "Store Hours",
+    answer: "Tuesday-Friday: Open 8:30am-5:30pm.",
+    answer2: "Saturday: Open 9:00am-5pm.",
+    answer3: "Sunday-Monday: Closed.",
+  },
+]
 
 export default Hero;

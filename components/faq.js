@@ -22,6 +22,10 @@ const Faq = () => {
                   </Disclosure.Button>
                   <Disclosure.Panel className="px-4 pt-4 pb-2 text-gray-500 dark:text-gray-300">
                     {item.answer}
+                    <br/>
+                    {item.answer2}
+                    <br/>
+                    {item.answer3}
                   </Disclosure.Panel>
                 </>
               )}
@@ -35,22 +39,10 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
-  },
-  {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
-  },
-  {
-    question: "What is your refund policy? ",
-    answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
-  },
-  {
-    question: "Do you offer technical support? ",
-    answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+    question: "Click for Store Hours",
+    answer: "Tuesday-Friday: Open 8:30am-5:30pm.",
+    answer2: "Saturday: Open 9:00am-5pm.",
+    answer3: "Sunday-Monday: Closed.",
   },
 ];
 
