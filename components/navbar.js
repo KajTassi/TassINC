@@ -92,6 +92,8 @@ const Navbar = () => {
           <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
               Contact Us
           </Link>
+
+          <ThemeChanger />
         </div>
       </nav>
     </div>

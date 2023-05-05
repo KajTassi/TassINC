@@ -9,6 +9,7 @@ import userThreeImg from "../public/img/user3.jpg";
 //This section is not in use at this time, but it may be used in the future so I have the code saved
 
 /*
+This goes above testimonials in the index.js file
 
 <SectionTitle
         pretitle="Testimonials"
