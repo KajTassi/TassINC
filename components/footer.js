@@ -19,22 +19,10 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div>
               {" "}
-              <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
-                    <Image
-                      src="/img/logo.svg"
-                      alt="N"
-                      width="32"
-                      height="32"
-                      className="w-8"
-                    />
-                  <span>Nextly</span>
-              </Link>
+                <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">Web Design</span>
             </div>
-
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Nextly is a free landing page & marketing website
-              template for startups and indie projects. Its built with
-              Next.js & TailwindCSS. And its completely open-source.
+              Website built out by Kaj Tassi. If you are in need of a website, please do not hesitate to reach out through Kaj.Tassi@vercel.app.
             </div>
 
             <div className="mt-5">
