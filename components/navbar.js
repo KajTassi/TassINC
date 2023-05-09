@@ -2,14 +2,12 @@ import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
 import { Disclosure } from "@headlessui/react";
+import PopupWidget from "./popupWidget";
 
 const Navbar = () => {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
+    "Services",
+    "Quotes",
   ];
 
   return (
@@ -92,8 +90,6 @@ const Navbar = () => {
           <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
               Contact Us
           </Link>
-
-          <ThemeChanger />
         </div>
       </nav>
     </div>

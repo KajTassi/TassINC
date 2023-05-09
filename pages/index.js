@@ -23,7 +23,7 @@ const Home = () => {
       </Head>
 
       <Navbar />
-      <Hero />  
+      <Hero />
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
