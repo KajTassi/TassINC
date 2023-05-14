@@ -10,7 +10,7 @@ const Cta = () => {
             Placeholder for contact form
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
-            Ask Shay for complimentory rough handies
+            To be filled in
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
