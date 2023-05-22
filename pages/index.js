@@ -34,7 +34,9 @@ const Home = () => {
       <Panels />
       <Cta />
       <Footer />
+      <section id="contact" class="contact-mf sect-pt4 route">
       <PopupWidget />
+      </section>
     </>
   );
 }
