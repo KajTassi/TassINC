@@ -1,13 +1,13 @@
 import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
+import { Disclosure } from "@headlessui/react";
 import PopupWidget from "./popupWidget";
-import { useForm, useWatch } from "react-hook-form";
-import { Disclosure, Transition } from "@headlessui/react";
-
 
 const Navbar = () => {
   const navigation = [
+    "Services",
+    "Quotes",
   ];
 
   return (
