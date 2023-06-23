@@ -26,11 +26,11 @@ const Panels  = () => {
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <Avatar
               image={tireChange}
-              name="New Tires"
-              title="$___ per tire replaced"
+              name="Brake Replacement"
+              title="$___ for break replacement"
             />
             <p className="text-2xl leading-normal ">
-              Price varies on what type of tire you are replacing
+              Price varies based on what type of breaks are in the vehicle.
             </p>
           </div>
         </div>
