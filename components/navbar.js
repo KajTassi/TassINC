@@ -1,7 +1,7 @@
 import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
-import { Disclosure } from "@headlessui/react";
+import { Disclosure, Transition } from "@headlessui/react";
 import PopupWidget from "./popupWidget";
 
 const Navbar = () => {
@@ -22,14 +22,14 @@ const Navbar = () => {
                   <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <span>
                       <Image
-                        src="/img/vwicon.png"
+                        src="/img/blueVW.png"
                         alt="N"
                         width="32"
                         height="32"
                         className="w-8"
                       />
                     </span>
-                    <span>Tassi Inc</span>
+                    <span> - Tassi Inc</span>
                   </span>
                 </Link>
 
@@ -87,9 +87,10 @@ const Navbar = () => {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="#contact" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+          <Link href="#PopupWidget" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
               Contact Us
           </Link>
+
         </div>
       </nav>
     </div>
