@@ -29,7 +29,7 @@ const Navbar = () => {
                         className="w-8"
                       />
                     </span>
-                    <span> - Tassi Inc</span>
+                    <span> ... </span>
                   </span>
                 </Link>
 
@@ -87,14 +87,18 @@ const Navbar = () => {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="#PopupWidget" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              Contact Us
-          </Link>
-
+              
         </div>
+        
       </nav>
     </div>
   );
 }
+
+/*
+ <Link href="/PopupWidget" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+              Contact Us
+          </Link>
+*/
 
 export default Navbar;
