@@ -15,8 +15,8 @@ const benefitOne = {
   image: benefitOneImg,
   bullets: [
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Maintain your Car's Value",
+      desc: "All cars deappreciate, so take the steps to slow it down.",
       icon: <ChartBarSquareIcon />,
     },
     {

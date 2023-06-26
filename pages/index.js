@@ -17,7 +17,7 @@ const Home = () => {
         <title>Tassi Inc | VW Auto Repair</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="The boilerplate code was done with Nextly, a free landing page template built with next.js & Tailwind CSS"
         />
         <link rel="icon" href="/img/vwbug.png" />
       </Head>

@@ -24,7 +24,7 @@ const Hero = () => {
                 href="https://www.google.com/maps?q=55+Reiner+St,+Colma,+CA+94014&oe=utf-8&client=firefox-a&ie=UTF8&hq&hnear=55+Reiner+St,+Daly+City,+San+Mateo,+California+94014&gl=us&ei=QfnNS-vYLYOksgO8iPWuDg&ved=0CAcQ8gEwAA&z=16"
                 target="_blank"
                 rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-blue-600 rounded-md ">
                 Get Directions
               </a>
               <span>
@@ -50,7 +50,7 @@ const Hero = () => {
       <Container>
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
-            Trusted since <span className="text-indigo-600">1992</span>{" "}
+            Trusted since <span className="text-blue-600">1992</span>{" "}
             by customers all over the Bay Area
           </div>
 
