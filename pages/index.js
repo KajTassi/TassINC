@@ -19,7 +19,7 @@ const Home = () => {
           name="description"
           content="Nextly is a free landing page template built with next.js & Tailwind CSS"
         />
-        <link rel="icon" href="/blueVW.png" />
+        <link rel="icon" href="/img/vwbug.png" />
       </Head>
 
       <Navbar />
