@@ -12,14 +12,17 @@ const Cta = () => {
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
             Phone: 650-755-1355
           </p>
-          <p>
+          <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
             Email: ?
           </p>
-          <p>
+          <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
             Address: 55 Reiner St, Daily City
           </p>
-          <p>
-            Google Maps: click here
+          <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
+            Google Maps: <a
+            href="https://www.google.com/maps?q=55+Reiner+St,+Colma,+CA+94014&oe=utf-8&client=firefox-a&ie=UTF8&hq&hnear=55+Reiner+St,+Daly+City,+San+Mateo,+California+94014&gl=us&ei=QfnNS-vYLYOksgO8iPWuDg&ved=0CAcQ8gEwAA&z=16"
+            class="underline ..."
+            >click here</a>
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
