@@ -28,13 +28,13 @@ const benefitOne = {
 };
 
 const benefitTwo = {
-  title: "We perform service, repairs, and long term maintenance",
-  desc: "From oil changes, to break checks, to engine diagnostics, we can get it taken care. When one thing in a car beigns to break down, it can put strain on the rest of the vehicle. We want to be able to diagnose those issues with detail and keep your vehicle in top shape.",
+  title: "We provide service, parts, repairs, and long term maintenance",
+  desc: "From oil changes, to break checks, to engine diagnostics, we can get it taken care. When one thing in a car beigns to break down, it can put strain on the rest of the vehicle. We want to be able to diagnose those issues with detail and keep your vehicle in top shape. If you are working on your car yourself, let us know! We source a lot of parts and already have a great inventory.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Happy Cars have Happy Drivers",
-      desc: "Let's expand the lifespan of your car and keep it running great.",
+      title: "Is your Car your Hobby?",
+      desc: "We sell parts, and we have a lot of them for older VW models!",
       icon: <FaceSmileIcon />,
     },
     {
